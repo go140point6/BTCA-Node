@@ -21,7 +21,6 @@ public:
         INTRO,
         UNSPENDABLE,
         STAKE,
-        SUPPORT,
         MASTERNODE,
         MNCONTROLLER
     };
