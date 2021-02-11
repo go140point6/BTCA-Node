@@ -5283,11 +5283,11 @@ wird ein Backup erstellt.
         <translation>Eigenüberweisung</translation>
     </message>
     <message>
-        <source>Shielding coins to yourself</source>
+        <source>Anonymizing coins to yourself</source>
         <translation>Geschirmte Coins für sich selbst</translation>
     </message>
     <message>
-        <source>Unshielding coins to yourself</source>
+        <source>Deanonymizing coins to yourself</source>
         <translation>Ungeschirmte Coins für sich selbst</translation>
     </message>
     <message>
@@ -5486,7 +5486,7 @@ wird ein Backup erstellt.
         <translation>Delegieren zu</translation>
     </message>
     <message>
-        <source>Shielding to</source>
+        <source>Anonymizing to</source>
         <translation>Abschirmung nach</translation>
     </message>
     <message>

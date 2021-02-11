@@ -197,7 +197,7 @@ void TxDetailDialog::setData(WalletModel *_model, WalletModelTransaction* _tx)
             ui->labelSend->setText(tr("Delegating to"));
         }
         if (recipient.isShieldedAddr) {
-            ui->labelSend->setText(tr("Shielding to"));
+            ui->labelSend->setText(tr("Anonymizing to"));
         }
         if (recipient.label.isEmpty()) { // If there is no label, then do not show the blank space.
             ui->textSend->setVisible(false);

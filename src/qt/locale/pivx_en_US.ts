@@ -5361,12 +5361,12 @@ backup will be created.
         <translation>Payment to yourself</translation>
     </message>
     <message>
-        <source>Shielding coins to yourself</source>
-        <translation>Shielding coins to yourself</translation>
+        <source>Anonymizing coins to yourself</source>
+        <translation>Anonymizing coins to yourself</translation>
     </message>
     <message>
-        <source>Unshielding coins to yourself</source>
-        <translation>Unshielding coins to yourself</translation>
+        <source>Deanonymizing coins to yourself</source>
+        <translation>Deanonymizing coins to yourself</translation>
     </message>
     <message>
         <source>Anonymous change, transfer between own anonymous addresses</source>
@@ -5568,8 +5568,8 @@ backup will be created.
         <translation>Delegating to</translation>
     </message>
     <message>
-        <source>Shielding to</source>
-        <translation>Shielding to</translation>
+        <source>Anonymizing to</source>
+        <translation>Anonymizing to</translation>
     </message>
     <message>
         <source>Unknown</source>

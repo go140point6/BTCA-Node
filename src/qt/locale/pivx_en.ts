@@ -6558,12 +6558,12 @@ backup will be created.
     </message>
     <message>
         <location line="+2"/>
-        <source>Shielding coins to yourself</source>
+        <source>Anonymizing coins to yourself</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Unshielding coins to yourself</source>
+        <source>Deanonymizing coins to yourself</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6819,7 +6819,7 @@ backup will be created.
     </message>
     <message>
         <location line="+3"/>
-        <source>Shielding to</source>
+        <source>Anonymizing to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

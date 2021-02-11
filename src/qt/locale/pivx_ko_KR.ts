@@ -4604,11 +4604,11 @@ NOTE: 업그레이드 이후에는
         <translation>자신에게 지불</translation>
     </message>
     <message>
-        <source>Shielding coins to yourself</source>
+        <source>Anonymizing coins to yourself</source>
         <translation>자신의 코인을 Shield 주소로 전송</translation>
     </message>
     <message>
-        <source>Unshielding coins to yourself</source>
+        <source>Deanonymizing coins to yourself</source>
         <translation>자신의 Shield 된 코인을 Transparent 주소로 전송</translation>
     </message>
     <message>

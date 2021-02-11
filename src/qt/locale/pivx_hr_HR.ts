@@ -5350,11 +5350,11 @@ stvorit će se nova sigurnosna kopija.
         <translation>Plaćanje sebi</translation>
     </message>
     <message>
-        <source>Shielding coins to yourself</source>
+        <source>Anonymizing coins to yourself</source>
         <translation>Štićenje novčića prema sebi</translation>
     </message>
     <message>
-        <source>Unshielding coins to yourself</source>
+        <source>Deanonymizing coins to yourself</source>
         <translation>Odštićivanje novčića sebi</translation>
     </message>
     <message>
@@ -5553,7 +5553,7 @@ stvorit će se nova sigurnosna kopija.
         <translation>Delegiram prema</translation>
     </message>
     <message>
-        <source>Shielding to</source>
+        <source>Anonymizing to</source>
         <translation>Zaštićujem prema</translation>
     </message>
     <message>
