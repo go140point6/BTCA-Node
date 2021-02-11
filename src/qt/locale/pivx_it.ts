@@ -1179,7 +1179,7 @@ Si avvierà automaticamente non appena il portafoglio avrà sufficienti conferme
     </message>
     <message>
         <source>Welcome to BTCA Node.</source>
-        <translation>Benvenuto in PIVIX Core.</translation>
+        <translation>Benvenuto in BTCA Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where BTCA Node will store its data.</source>
@@ -1513,7 +1513,7 @@ Per favore, attendi qualche minuto (il collaterale del masternode richiede %1 co
         <translation>Dati Masternode copiati negli appunti.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
+        <source>Not enough balance to create a masternode, 100 %1 required.</source>
         <translation>Saldo insufficiente per creare un masternode, sono necessari 10.000 %1.</translation>
     </message>
     <message>
@@ -1541,7 +1541,7 @@ Per favore, attendi qualche minuto (il collaterale del masternode richiede %1 co
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the btca.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1549,7 +1549,7 @@ this controller wallet (select the Masternode in the list and press "start").
 un Masternode su un server remoto .
 
 
-Dovrai solo incollare i dati nel file pivx.conf del server remoto
+Dovrai solo incollare i dati nel file btca.conf del server remoto
 e avviarlo, quindi avviare il Masternode utilizzando questo portafoglio
 come controller (selezionare il Masternode nell'elenco e premere "start").
 </translation>
@@ -2032,7 +2032,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>BTCAGUI</name>
     <message>
         <source>BTCA Node</source>
         <translation>BTCA Node</translation>
@@ -3720,12 +3720,12 @@ Verifica di aver installato un editor di testo predeterminato.</translation>
         <translation>Esporta elenco indirizzi</translation>
     </message>
     <message>
-        <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <source>BTCA_tx_csv_export(*.csv)</source>
+        <translation>BTCA_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>BTCA_addresses_csv_export(*.csv)</source>
+        <translation>BTCA_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -4112,8 +4112,8 @@ regolarmente. Questi servizi includono:
         <translation>Impossibile aprire la cartella dei backup</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>Impossibile aprire pivx.conf con l'applicazione predefinita</translation>
+        <source>Unable to open btca.conf with default application</source>
+        <translation>Impossibile aprire btca.conf con l'applicazione predefinita</translation>
     </message>
     <message>
         <source>In:</source>

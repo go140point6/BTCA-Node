@@ -362,7 +362,7 @@ for staking</source>
     </message>
     <message>
         <source>BTCA will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your BTCAs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 BTCAs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <translation>BTCA는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 BTCAs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -954,7 +954,7 @@ address</source>
     </message>
     <message>
         <source>How to get BTCA</source>
-        <translation>PIV를 얻을 수 있는 방법</translation>
+        <translation>BTCA를 얻을 수 있는 방법</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -978,7 +978,7 @@ address</source>
     </message>
     <message>
         <source>Amount of BTCA and zBTCA staked.</source>
-        <translation>스테이킹 된 PIV와 zBTCA 양</translation>
+        <translation>스테이킹 된 BTCA와 zBTCA 양</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1345,7 +1345,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 100 BTCA will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 PIV의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;100 BTCA의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1522,8 +1522,8 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
         <translation>마스터노드 정보가 클립보드에 복사되었습니다.</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 10,000 %1 required.</source>
-        <translation>마스터노드 생성에 필요한 10,000 %1 보다 잔고가 부족합니다.</translation>
+        <source>Not enough balance to create a masternode, 100 %1 required.</source>
+        <translation>마스터노드 생성에 필요한 100 %1 보다 잔고가 부족합니다.</translation>
     </message>
     <message>
         <source>Remote Masternode Data</source>
@@ -1550,7 +1550,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivx.conf file
+You will only have to paste the data in the btca.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1558,7 +1558,7 @@ this controller wallet (select the Masternode in the list and press "start").
 클립보드로 내보내려고 합니다.
 
 
-그 데이터를 리모트 서버의 pivx.conf 파일에
+그 데이터를 리모트 서버의 btca.conf 파일에
 붙여넣고 시작합니다. 그리고 컨트롤러 지갑에서 마스터노드를
 시작합니다. (리스트에서 마스터노드를 선택하고 "시작"을 누르십시오.)
 </translation>
@@ -1814,7 +1814,7 @@ STAKING</source>
     </message>
     <message>
         <source>Automatically start BTCA after logging in to the system.</source>
-        <translation>시스템 로그인 후 PIVX을 자동으로 시작합니다.</translation>
+        <translation>시스템 로그인 후 BTCA을 자동으로 시작합니다.</translation>
     </message>
     <message>
         <source>&amp;Start BTCA on system login</source>
@@ -1846,7 +1846,7 @@ STAKING</source>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting BTCA.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 PIVX을 다시 시작한 후에 적용됩니다.</translation>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 BTCA을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1860,7 +1860,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Enable automatic minting of BTCA units to zBTCA</source>
-        <translation>보상받은 PIV를 zBTCA로 자동변환 활성화</translation>
+        <translation>보상받은 BTCA를 zBTCA로 자동변환 활성화</translation>
     </message>
     <message>
         <source>Enable zBTCA Automint</source>
@@ -1876,7 +1876,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Percentage of incoming BTCA which get automatically converted to zBTCA via Zerocoin Protocol (min: 10%)</source>
-        <translation>PIV수신시 자동변환 zBTCA 비율 (최소값:10%)</translation>
+        <translation>BTCA수신시 자동변환 zBTCA 비율 (최소값:10%)</translation>
     </message>
     <message>
         <source>Percentage of autominted zBTCA</source>
@@ -1884,7 +1884,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
     <message>
         <source>Wait with automatic conversion to Zerocoin until enough BTCA for this denomination is available</source>
-        <translation>이 디노미네이션의 PIV가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
+        <translation>이 디노미네이션의 BTCA가 충분해질 때까지 Zerocoin으로 자동전환은 보류됩니다.</translation>
     </message>
     <message>
         <source>Preferred Automint zBTCA Denomination</source>
@@ -2040,7 +2040,7 @@ https://www.transifex.com/pivx-project/pivx-project-translations</translation>
     </message>
 </context>
 <context>
-    <name>PIVXGUI</name>
+    <name>BTCAGUI</name>
     <message>
         <source>BTCA Node</source>
         <translation>BTCA Node</translation>
@@ -2138,7 +2138,7 @@ Address: %4
     </message>
     <message>
         <source>Cannot start pivx: click-to-pay handler</source>
-        <translation>PIVX을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
+        <translation>BTCA을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid BTCA address or malformed URI parameters.</source>
@@ -2276,7 +2276,7 @@ Address: %4
     </message>
     <message>
         <source>A fatal error occurred. BTCA can no longer continue safely and will quit.</source>
-        <translation>치명적인 오류가 발생하였습니다. PIVX는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
+        <translation>치명적인 오류가 발생하였습니다. BTCA는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
     </message>
     <message>
         <source>BTCA Node</source>
@@ -3761,8 +3761,8 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>백업 폴더를 열 수 없습니다.</translation>
     </message>
     <message>
-        <source>Unable to open pivx.conf with default application</source>
-        <translation>pivx.conf 파일을 기본 앱으로 열 수 없습니다.</translation>
+        <source>Unable to open btca.conf with default application</source>
+        <translation>btca.conf 파일을 기본 앱으로 열 수 없습니다.</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4827,7 +4827,7 @@ BTCA Node Wallet</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - BTCA believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BTCA 선언서(manifesto) 내용: 프라이버시는 타협할 수 없는 인간의 기본적인 인권입니다. 사용자가 원한다면 언제든 누구에게든 정보를 공유할 수 있는 자유를 보장합니다. PIVX는 자기 주권(self sovereignty)을 추구합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;BTCA 선언서(manifesto) 내용: 프라이버시는 타협할 수 없는 인간의 기본적인 인권입니다. 사용자가 원한다면 언제든 누구에게든 정보를 공유할 수 있는 자유를 보장합니다. BTCA는 자기 주권(self sovereignty)을 추구합니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>The masternode network is BTCA's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
@@ -4835,7 +4835,7 @@ BTCA Node Wallet</translation>
     </message>
     <message>
         <source>How BTCA respects your privacy?</source>
-        <translation>PIVX는 프라이버시를 얼마나 중요하게 생각하나요?</translation>
+        <translation>BTCA는 프라이버시를 얼마나 중요하게 생각하나요?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
