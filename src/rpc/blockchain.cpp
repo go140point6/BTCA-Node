@@ -648,8 +648,8 @@ UniValue getsupplyinfo(const JSONRPCRequest& request)
             "{\n"
             "  \"updateheight\" : n,       (numeric) The chain height when the transparent supply was updated\n"
             "  \"transparentsupply\" : n   (numeric) The sum of all spendable transaction outputs at height updateheight\n"
-            "  \"shieldsupply\": n         (numeric) Chain tip shield pool value\n"
-            "  \"totalsupply\": n          (numeric) The sum of transparentsupply and shieldsupply\n"
+            "  \"anonymoussupply\": n      (numeric) Chain tip shield pool value\n"
+            "  \"totalsupply\": n          (numeric) The sum of transparentsupply and anonymoussupply\n"
             "}\n"
 
             "\nExamples:\n" +
@@ -668,7 +668,7 @@ UniValue getsupplyinfo(const JSONRPCRequest& request)
     ret.pushKV("updateheight", MoneySupply.GetCacheHeight());
     ret.pushKV("transparentsupply", ValueFromAmount(tSupply));
     Optional<CAmount> shieldedPoolValue = WITH_LOCK(cs_main, return (chainActive.Tip() ? chainActive.Tip()->nChainSaplingValue : nullopt); );
-    ret.pushKV("shieldsupply", ValuePoolDesc(shieldedPoolValue, nullopt)["chainValue"]);
+    ret.pushKV("anonymoussupply", ValuePoolDesc(shieldedPoolValue, nullopt)["chainValue"]);
     const CAmount totalSupply = tSupply + (shieldedPoolValue ? *shieldedPoolValue : 0);
     ret.pushKV("totalsupply", ValueFromAmount(totalSupply));
 
