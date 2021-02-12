@@ -648,7 +648,7 @@ UniValue getsupplyinfo(const JSONRPCRequest& request)
             "{\n"
             "  \"updateheight\" : n,       (numeric) The chain height when the transparent supply was updated\n"
             "  \"transparentsupply\" : n   (numeric) The sum of all spendable transaction outputs at height updateheight\n"
-            "  \"anonymoussupply\": n      (numeric) Chain tip shield pool value\n"
+            "  \"anonymoussupply\": n      (numeric) Chain tip anonymous pool value\n"
             "  \"totalsupply\": n          (numeric) The sum of transparentsupply and anonymoussupply\n"
             "}\n"
 

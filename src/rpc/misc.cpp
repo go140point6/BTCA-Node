@@ -69,7 +69,7 @@ UniValue getinfo(const JSONRPCRequest& request)
             "  \"transparentsupply\" : n       (numeric) The sum of the value of all unspent outputs when the chainstate was\n"
             "                                            last flushed to disk (use getsupplyinfo to know the update-height, or\n"
             "                                            to trigger the money supply update/recalculation)"
-            "  \"anonymoussupply\": n          (numeric) Chain tip shield pool value\n"
+            "  \"anonymoussupply\": n          (numeric) Chain tip anonymous pool value\n"
             "  \"keypoololdest\": xxxxxx,      (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,          (numeric) how many new keys are pre-generated\n"
             "  \"unlocked_until\": ttt,        (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked\n"
