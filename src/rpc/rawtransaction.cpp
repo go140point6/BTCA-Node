@@ -72,7 +72,7 @@ void TxToJSON(const CTransaction& tx, const uint256 hashBlock, UniValue& entry)
             for (const auto& addr : addresses) {
                 addrs.push_back(KeyIO::EncodePaymentAddress(addr));
             }
-            entry.pushKV("shielded_addresses", addrs);
+            entry.pushKV("anonymous_addresses", addrs);
         }
     }
 
@@ -96,7 +96,7 @@ std::string GetSaplingTxHelpInfo()
 {
     return "  \"valueBalance\": n,          (numeric) The net value of spend transfers minus output transfers\n"
            "  \"valueBalanceSat\": n,       (numeric) `valueBalance` in sats\n"
-           "  \"vShieldSpend\": [               (array of json objects)\n"
+           "  \"vAnonymousSpend\": [               (array of json objects)\n"
            "     {\n"
            "       \"cv\": \"hex\",         (string) A value commitment to the value of the input note\n"
            "       \"anchor\": hex,         (string) A Merkle root of the Sapling note commitment tree at some block height in the past\n"
@@ -107,7 +107,7 @@ std::string GetSaplingTxHelpInfo()
            "     }\n"
            "     ,...\n"
            "  ],\n"
-           "  \"vShieldOutput\": [             (array of json objects)\n"
+           "  \"vAnonymousOutput\": [             (array of json objects)\n"
            "     {\n"
            "       \"cv\": hex,                  (string) A value commitment to the value of the output note\n"
            "       \"cmu\": hex,                 (string) The u-coordinate of the note commitment for the output note\n"
