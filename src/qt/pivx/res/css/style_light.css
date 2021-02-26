@@ -386,18 +386,18 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-title-topbar"] {
-    color: #a3a3a4;
+    color: #3a4754;
     font-size: 16px;
     font-weight: ligther;
 }
 
 *[cssClass="amount-topbar"] {
-    color: #fff;
+    color: #3a4754;
     font-size:35px;
 }
 
 *[cssClass="amount-small-topbar"] {
-    color: #fff;
+    color: #3a4754;
     font-size: 21px;
 }
 
@@ -943,22 +943,22 @@ HH       TEXT
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="text-title-screen"] {
-    color: #203c53;
+    color: #3a4754;
     font-size: 22px;
 }
 
 *[cssClass="text-title-dash"] {
-    color: #fff;
+    color: #3a4754;
     font-size: 20px;
 }
 
 *[cssClass="text-title-dialog"] {
-    color: #203c53;
+    color: #3a4754;
     font-size: 22px;
 }
 
 *[cssClass="text-title"] {
-    color: #203c53;
+    color: #3a4754;
     font-size: 16px;
 }
 
@@ -993,7 +993,7 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 }
 
 *[cssClass="text-subtitle"] {
-    color: #bababa;
+    color: #203c53;
     font-size: 14px;
 }
 
@@ -1741,7 +1741,7 @@ HH      SPLASH
 HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 
 *[cssClass="container-splash"] {
-    background-color: #1b3347;
+    background-color: #ababbc;
 }
 
 *[cssClass="img-splash-logo"] {
@@ -2075,7 +2075,6 @@ QComboBox[cssClass="btn-combo-coins"] {
     padding:10px 20px 10px 10px;
     font-size: 16px;
     border:1px solid #203c53;
-    color: #fff;
 }
 
 QLabel[cssClass="btn-combo-coins"] {
@@ -2084,7 +2083,6 @@ QLabel[cssClass="btn-combo-coins"] {
     padding:10px 10px 10px 10px;
     font-size: 16px;
     border:1px solid #203c53;
-    color: #fff;
 }
 
 QComboBox[cssClass="btn-combo-coins"]::down-arrow {
@@ -2666,7 +2664,6 @@ QPushButton[cssClass="btn-settings-options"]:hover {
     color: #fff;
     border: none;
     font-size: 20px;
-    color: #fff;
     padding: 0 20px;
     text-align:left;
 }
@@ -2764,7 +2761,6 @@ HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
 *[cssClass="container-number-faq"] {
     color: #fff;
     background-color: #203c53;
-    color: #fff;
     font-size: 14px;
     border-radius: 2px;
 }

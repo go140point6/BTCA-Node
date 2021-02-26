@@ -81,8 +81,6 @@ private:
 
     // info popup
     BalanceBubble* balanceBubble = nullptr;
-
-    void updateTorIcon();
     void connectUpgradeBtnAndDialogTimer(const QString& message);
 };
 
